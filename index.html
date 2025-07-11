@@ -58,7 +58,6 @@
     </style>
 </head>
 
-<a href="fbi.html">Go to the main page</a>
 <a href="#" onclick="checkPasswordAndRedirect()">Go to the main page (Password Protected)</a>
 
 <script>
@@ -67,7 +66,7 @@
         var correctPassword = "annagram"; // <<< CHANGE THIS TO YOUR DESIRED PASSWORD
 
         if (password === correctPassword) {
-            window.location.href = "index.html"; // Redirect to index.html
+            window.location.href = "fbi.html"; // Redirect to index.html
         } else {
             alert("Incorrect password. Access denied.");
         }
